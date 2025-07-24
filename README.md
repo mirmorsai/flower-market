@@ -1,6 +1,6 @@
 # 🌸 Taugel - Always Fresh Flowers Website
 
-Welcome to the **Taugel** website project! This is an e-commerce site for selling fresh flowers and plants, built as part of an assignment (Assignment-002). The website showcases a variety of floral products with a modern, responsive design.
+Welcome to the "Taugel" website project! This is an e-commerce site for selling fresh flowers and plants, built as part of an assignment (Assignment-002). The website showcases a variety of floral products with a modern, responsive design.
 
 ## 📋 Project Overview
 
@@ -41,7 +41,7 @@ This project is designed to meet the following requirements:
 - Animation for the trusted badge and cart alerts are not included (self-guided challenge).
 
 ## 🔗 Live Demo
-[View Live](https://mirmorsai-username.github.io/flower-market-repo-name/) *(Update with your GitHub Pages URL after deployment)*
+[View Live] https://mirmorsai.github.io/flower-market/
 
 ## 📂 File Structure
 ```
