@@ -3,11 +3,37 @@
     display: flex;
 }
 /* font-style */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* paragraph */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color:  rgba(137, 135, 161, 1);
+}
+#nano-sans-font-orange {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.125rem;
+    color: rgba(233, 90, 8, 1);
+}
+.nano-sans-font {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+  font-size: 3.125rem;
+  color:  rgba(0, 0, 0, 1);
+}
 .work-sans-font {
   font-family: "Work Sans", sans-serif,;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 3.125rem rgba(0, 0, 0, 1);
 }
 /* header style */
 /* nav style */
@@ -20,7 +46,7 @@
 
 .cart i.fa-shopping-cart {
     font-size: 1.8rem;
-    color: #333;
+    color: rgba(37, 36, 50, 1);
     cursor: pointer;
     transition: color 0.2s;
 }
@@ -30,7 +56,7 @@
 }
 .cart-count {
     font-size: 1.2rem;
-    color: #333;
+    color: rgba(37, 36, 50, 1);
     margin-left: 5px;
 }
 .nav{
@@ -42,9 +68,9 @@
     margin-right: 65px;
 }
 .menu {
-    font-family: 'Inter', 'Work Sans', Arial, sans-serif;
+    /* font-family: 'Inter', 'Work Sans', Arial, sans-serif;
     font-weight: 400;
-    font-size: 16px rgba(137, 135, 161, 1);
+    font-size: 16px rgba(137, 135, 161, 1); */
     gap: 48px;
     justify-content: center;
     align-items: center;
@@ -52,4 +78,21 @@
 #Home {
     /* color: #000; */
     font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+    /* font-family: noto-sans, sans-serif; */
+}
+/* banner */
+.banner {
+    margin-top: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: center;
+    align-items: flex-end;
+}
+.banner div {
+    width: 50%;
+}
+.banner div img {
+    width: 100%;
+    height: auto;
 }
